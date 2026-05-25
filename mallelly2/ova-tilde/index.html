@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aprendamos a usar correctamente la tilde</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+
+  <!-- ===== SIDEBAR / MENÚ LATERAL ===== -->
+  <aside class="sidebar" id="sidebar">
+
+    <div class="sidebar-header">
+      <div class="sidebar-logo">
+        <span class="logo-icon">Á</span>
+        <div>
+          <p class="logo-title">OVA</p>
+          <p class="logo-subtitle">La Tilde</p>
+        </div>
+      </div>
+    </div>
+
+    <nav class="sidebar-nav">
+
+      <!-- INICIO -->
+      <button class="nav-item nav-direct active" data-section="inicio">
+        <span class="nav-icon">🏠</span>
+        <span>Inicio</span>
+      </button>
+
+      <!-- UNIDAD 1 -->
+      <div class="nav-group">
+        <button class="nav-item nav-toggle" data-group="u1">
+          <span class="nav-icon">🟢</span>
+          <span>Unidad 1: Agudas</span>
+          <span class="nav-arrow">›</span>
+        </button>
+        <div class="nav-submenu" id="submenu-u1">
+          <button class="nav-subitem" data-section="u1-concepto">Concepto, Regla y Ejemplos</button>
+          <button class="nav-subitem" data-section="u1-video">Video</button>
+          <button class="nav-subitem" data-section="u1-actividad">Actividad Interactiva</button>
+        </div>
+      </div>
+
+      <!-- UNIDAD 2 -->
+      <div class="nav-group">
+        <button class="nav-item nav-toggle" data-group="u2">
+          <span class="nav-icon">🟡</span>
+          <span>Unidad 2: Graves o llanas</span>
+          <span class="nav-arrow">›</span>
+        </button>
+        <div class="nav-submenu" id="submenu-u2">
+          <button class="nav-subitem" data-section="u2-concepto">Concepto, Regla y Ejemplos</button>
+          <button class="nav-subitem" data-section="u2-video">Video</button>
+          <button class="nav-subitem" data-section="u2-actividad">Actividad Interactiva</button>
+        </div>
+      </div>
+
+      <!-- UNIDAD 3 -->
+      <div class="nav-group">
+        <button class="nav-item nav-toggle" data-group="u3">
+          <span class="nav-icon">🔵</span>
+          <span>Unidad 3: Esdrújulas</span>
+          <span class="nav-arrow">›</span>
+        </button>
+        <div class="nav-submenu" id="submenu-u3">
+          <button class="nav-subitem" data-section="u3-concepto">Concepto, Regla y Ejemplos</button>
+          <button class="nav-subitem" data-section="u3-video">Video</button>
+          <button class="nav-subitem" data-section="u3-actividad">Actividad Interactiva</button>
+        </div>
+      </div>
+
+      <!-- UNIDAD 4 -->
+      <div class="nav-group">
+        <button class="nav-item nav-toggle" data-group="u4">
+          <span class="nav-icon">🟣</span>
+          <span>Unidad 4: Sobreesdrújulas</span>
+          <span class="nav-arrow">›</span>
+        </button>
+        <div class="nav-submenu" id="submenu-u4">
+          <button class="nav-subitem" data-section="u4-concepto">Concepto, Regla y Ejemplos</button>
+          <button class="nav-subitem" data-section="u4-video">Video</button>
+          <button class="nav-subitem" data-section="u4-actividad">Actividad Interactiva</button>
+        </div>
+      </div>
+
+      <!-- EVALUACIÓN FINAL -->
+      <button class="nav-item nav-direct nav-eval" data-section="evaluacion">
+        <span class="nav-icon">📝</span>
+        <span>Evaluación Final</span>
+      </button>
+
+    </nav>
+
+    <div class="sidebar-footer">
+      <p>Grado 5° Primaria</p>
+    </div>
+  </aside>
+
+  <!-- ===== CONTENIDO PRINCIPAL (SPA) ===== -->
+  <main class="main-content" id="main-content">
+
+    <!-- ==================== SECCIÓN: INICIO ==================== -->
+    <section class="content-section active" id="section-inicio">
+      <div class="page-hero">
+        <div class="hero-badge">Bienvenido al OVA</div>
+        <h1 class="hero-title">Aprendamos a usar correctamente la tilde</h1>
+        <p class="hero-subtitle">Un viaje por las reglas de acentuación del español</p>
+        <div class="hero-decoration">
+          <span>Á</span><span>É</span><span>Í</span><span>Ó</span><span>Ú</span>
+        </div>
+      </div>
+
+      <div class="info-grid">
+        <div class="info-card card-blue">
+          <div class="info-card-icon">📖</div>
+          <h3>Presentación</h3>
+          <p>Bienvenidos a este Objeto Virtual de Aprendizaje (OVA), diseñado para ayudar a los estudiantes de grado 5° a comprender y aplicar correctamente las reglas de acentuación del español. A través de explicaciones sencillas, ejemplos, videos y actividades interactivas, aprenderás a identificar palabras agudas, graves o llanas, esdrújulas y sobreesdrújulas.</p>
+        </div>
+        <div class="info-card card-green">
+          <div class="info-card-icon">🎯</div>
+          <h3>Objetivo del OVA</h3>
+          <p>Reconocer y aplicar correctamente las reglas del uso de la tilde en palabras agudas, graves, esdrújulas y sobreesdrújulas mediante actividades interactivas.</p>
+        </div>
+        <div class="info-card card-orange">
+          <div class="info-card-icon">👨‍🎓</div>
+          <h3>¿A quién va dirigido?</h3>
+          <p>Este OVA está dirigido a estudiantes de grado 5° de primaria que desean comprender y dominar las reglas de acentuación del idioma español.</p>
+        </div>
+      </div>
+
+      <div class="units-preview">
+        <h2 class="section-title">Contenido del OVA</h2>
+        <div class="units-grid">
+          <div class="unit-card" data-section="u1-concepto">
+            <div class="unit-num">1</div>
+            <div class="unit-color u1-color"></div>
+            <h4>Palabras Agudas</h4>
+            <p>Sílaba tónica en la <strong>última sílaba</strong></p>
+            <span class="unit-example">can-CIÓN · ca-FÉ</span>
+          </div>
+          <div class="unit-card" data-section="u2-concepto">
+            <div class="unit-num">2</div>
+            <div class="unit-color u2-color"></div>
+            <h4>Palabras Graves</h4>
+            <p>Sílaba tónica en la <strong>penúltima sílaba</strong></p>
+            <span class="unit-example">ÁR-bol · LÁ-piz</span>
+          </div>
+          <div class="unit-card" data-section="u3-concepto">
+            <div class="unit-num">3</div>
+            <div class="unit-color u3-color"></div>
+            <h4>Palabras Esdrújulas</h4>
+            <p>Sílaba tónica en la <strong>antepenúltima</strong></p>
+            <span class="unit-example">PÁ-ja-ro · MÚ-si-ca</span>
+          </div>
+          <div class="unit-card" data-section="u4-concepto">
+            <div class="unit-num">4</div>
+            <div class="unit-color u4-color"></div>
+            <h4>Sobreesdrújulas</h4>
+            <p>Sílaba tónica <strong>antes de la antepenúltima</strong></p>
+            <span class="unit-example">CÓM-pra-te-lo</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== UNIDAD 1: AGUDAS - CONCEPTO ==================== -->
+    <section class="content-section" id="section-u1-concepto">
+      <div class="section-header u1-header">
+        <span class="unit-badge">Unidad 1</span>
+        <h1>Palabras Agudas</h1>
+        <p>Concepto, Regla y Ejemplos</p>
+      </div>
+
+      <div class="concept-box u1-box">
+        <div class="concept-icon">💡</div>
+        <h3>¿Qué son las palabras agudas?</h3>
+        <p>Las palabras agudas son aquellas cuya <strong>sílaba tónica</strong> (la que suena más fuerte) está en la <strong>última sílaba</strong>.</p>
+      </div>
+
+      <div class="rule-box u1-rule">
+        <h3>📏 Regla de acentuación</h3>
+        <p>Las palabras agudas llevan tilde <strong>(´)</strong> cuando terminan en:</p>
+        <div class="rule-tags">
+          <span class="rule-tag">Vocal (a, e, i, o, u)</span>
+          <span class="rule-tag">N</span>
+          <span class="rule-tag">S</span>
+        </div>
+        <p class="rule-note">Si terminan en cualquier otra consonante, <strong>NO llevan tilde.</strong></p>
+      </div>
+
+      <div class="examples-container">
+        <div class="examples-col">
+          <h3 class="ex-title ex-with">✅ Con tilde</h3>
+          <div class="word-list">
+            <div class="word-item"><span class="word">can<mark>ción</mark></span><span class="syllable">can-CIÓN</span></div>
+            <div class="word-item"><span class="word">ca<mark>fé</mark></span><span class="syllable">ca-FÉ</span></div>
+            <div class="word-item"><span class="word">ba<mark>lón</mark></span><span class="syllable">ba-LÓN</span></div>
+            <div class="word-item"><span class="word">com<mark>pás</mark></span><span class="syllable">com-PÁS</span></div>
+            <div class="word-item"><span class="word">ma<mark>má</mark></span><span class="syllable">ma-MÁ</span></div>
+          </div>
+        </div>
+        <div class="examples-col">
+          <h3 class="ex-title ex-without">❌ Sin tilde</h3>
+          <div class="word-list">
+            <div class="word-item"><span class="word">re<mark class="no-accent">loj</mark></span><span class="syllable">re-LOJ</span></div>
+            <div class="word-item"><span class="word">pa<mark class="no-accent">pel</mark></span><span class="syllable">pa-PEL</span></div>
+            <div class="word-item"><span class="word">doc<mark class="no-accent">tor</mark></span><span class="syllable">doc-TOR</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-buttons">
+        <button class="btn-next" data-section="u1-video">Ir al Video →</button>
+      </div>
+    </section>
+
+    <!-- ==================== UNIDAD 1: VIDEO ==================== -->
+    <section class="content-section" id="section-u1-video">
+      <div class="section-header u1-header">
+        <span class="unit-badge">Unidad 1</span>
+        <h1>Palabras Agudas</h1>
+        <p>Video Educativo</p>
+      </div>
+      <div class="video-wrapper">
+        <div class="video-placeholder">
+          <div class="video-play-btn">▶</div>
+          <p>Video: Palabras Agudas</p>
+          <p class="video-note">Reemplaza el src con el enlace de YouTube correspondiente</p>
+        </div>
+        <!-- Para activar el video real, descomenta el iframe y borra el div anterior:
+        <iframe width="100%" height="450" src="https://www.youtube.com/embed/TU_ID_VIDEO"
+          title="Palabras Agudas" frameborder="0" allowfullscreen></iframe>
+        -->
+      </div>
+      <div class="nav-buttons">
+        <button class="btn-prev" data-section="u1-concepto">← Concepto</button>
+        <button class="btn-next" data-section="u1-actividad">Actividad →</button>
+      </div>
+    </section>
+
+    <!-- ==================== UNIDAD 1: ACTIVIDAD ==================== -->
+    <section class="content-section" id="section-u1-actividad">
+      <div class="section-header u1-header">
+        <span class="unit-badge">Unidad 1 · Actividad</span>
+        <h1>¡Completa las oraciones!</h1>
+        <p>Escribe la palabra correcta en cada espacio</p>
+      </div>
+      <div class="activity-container" id="activity-u1"></div>
+      <div class="nav-buttons">
+        <button class="btn-prev" data-section="u1-video">← Video</button>
+        <button class="btn-next" data-section="u2-concepto">Ir a Unidad 2 →</button>
+      </div>
+    </section>
+
+    <!-- ==================== UNIDAD 2: GRAVES - CONCEPTO ==================== -->
+    <section class="content-section" id="section-u2-concepto">
+      <div class="section-header u2-header">
+        <span class="unit-badge">Unidad 2</span>
+        <h1>Palabras Graves o Llanas</h1>
+        <p>Concepto, Regla y Ejemplos</p>
+      </div>
+
+      <div class="concept-box u2-box">
+        <div class="concept-icon">💡</div>
+        <h3>¿Qué son las palabras graves?</h3>
+        <p>Las palabras graves o llanas son aquellas cuya <strong>sílaba tónica</strong> está en la <strong>penúltima sílaba</strong> (la segunda contando desde el final).</p>
+      </div>
+
+      <div class="rule-box u2-rule">
+        <h3>📏 Regla de acentuación</h3>
+        <p>Las palabras graves llevan tilde cuando <strong>NO terminan</strong> en:</p>
+        <div class="rule-tags">
+          <span class="rule-tag">Vocal</span>
+          <span class="rule-tag">N</span>
+          <span class="rule-tag">S</span>
+        </div>
+        <p class="rule-note">Si terminan en vocal, 'n' o 's', <strong>NO llevan tilde.</strong></p>
+      </div>
+
+      <div class="examples-container">
+        <div class="examples-col">
+          <h3 class="ex-title ex-with">✅ Con tilde</h3>
+          <div class="word-list">
+            <div class="word-item"><span class="word"><mark>ár</mark>bol</span><span class="syllable">ÁR-bol</span></div>
+            <div class="word-item"><span class="word"><mark>lá</mark>piz</span><span class="syllable">LÁ-piz</span></div>
+            <div class="word-item"><span class="word"><mark>án</mark>gel</span><span class="syllable">ÁN-gel</span></div>
+            <div class="word-item"><span class="word">a<mark>zú</mark>car</span><span class="syllable">a-ZÚ-car</span></div>
+            <div class="word-item"><span class="word">di<mark>fí</mark>cil</span><span class="syllable">di-FÍ-cil</span></div>
+          </div>
+        </div>
+        <div class="examples-col">
+          <h3 class="ex-title ex-without">❌ Sin tilde</h3>
+          <div class="word-list">
+            <div class="word-item"><span class="word">ca<mark class="no-accent">sa</mark></span><span class="syllable">CA-sa</span></div>
+            <div class="word-item"><span class="word">me<mark class="no-accent">sa</mark></span><span class="syllable">ME-sa</span></div>
+            <div class="word-item"><span class="word">pe<mark class="no-accent">rro</mark></span><span class="syllable">PE-rro</span></div>
+            <div class="word-item"><span class="word">compu<mark class="no-accent">ta</mark>dora</span><span class="syllable">com-pu-TA-do-ra</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-buttons">
+        <button class="btn-next" data-section="u2-video">Ir al Video →</button>
+      </div>
+    </section>
+
+    <!-- ==================== UNIDAD 2: VIDEO ==================== -->
+    <section class="content-section" id="section-u2-video">
+      <div class="section-header u2-header">
+        <span class="unit-badge">Unidad 2</span>
+        <h1>Palabras Graves o Llanas</h1>
+        <p>Video Educativo</p>
+      </div>
+      <div class="video-wrapper">
+        <div class="video-placeholder">
+          <div class="video-play-btn">▶</div>
+          <p>Video: Palabras Graves o Llanas</p>
+          <p class="video-note">Reemplaza el src con el enlace de YouTube correspondiente</p>
+        </div>
+      </div>
+      <div class="nav-buttons">
+        <button class="btn-prev" data-section="u2-concepto">← Concepto</button>
+        <button class="btn-next" data-section="u2-actividad">Actividad →</button>
+      </div>
+    </section>
+
+    <!-- ==================== UNIDAD 2: ACTIVIDAD ==================== -->
+    <section class="content-section" id="section-u2-actividad">
+      <div class="section-header u2-header">
+        <span class="unit-badge">Unidad 2 · Actividad</span>
+        <h1>¿Verdadero o Falso?</h1>
+        <p>Decide si la afirmación es correcta</p>
+      </div>
+      <div class="activity-container" id="activity-u2"></div>
+      <div class="nav-buttons">
+        <button class="btn-prev" data-section="u2-video">← Video</button>
+        <button class="btn-next" data-section="u3-concepto">Ir a Unidad 3 →</button>
+      </div>
+    </section>
+
+    <!-- ==================== UNIDAD 3: ESDRÚJULAS - CONCEPTO ==================== -->
+    <section class="content-section" id="section-u3-concepto">
+      <div class="section-header u3-header">
+        <span class="unit-badge">Unidad 3</span>
+        <h1>Palabras Esdrújulas</h1>
+        <p>Concepto, Regla y Ejemplos</p>
+      </div>
+
+      <div class="concept-box u3-box">
+        <div class="concept-icon">💡</div>
+        <h3>¿Qué son las palabras esdrújulas?</h3>
+        <p>Las palabras esdrújulas son aquellas cuya <strong>sílaba tónica</strong> está en la <strong>antepenúltima sílaba</strong> (la tercera contando desde el final).</p>
+      </div>
+
+      <div class="rule-box u3-rule">
+        <h3>📏 Regla de acentuación</h3>
+        <div class="rule-always">
+          <span>⭐ ¡SIEMPRE llevan tilde! ⭐</span>
+        </div>
+        <p>Todas las palabras esdrújulas llevan tilde sin excepción, sin importar en qué letra terminen.</p>
+      </div>
+
+      <div class="examples-container single">
+        <div class="examples-col full-width">
+          <h3 class="ex-title ex-with">✅ Siempre con tilde</h3>
+          <div class="word-list word-list-grid">
+            <div class="word-item"><span class="word"><mark>pá</mark>jaro</span><span class="syllable">PÁ-ja-ro</span></div>
+            <div class="word-item"><span class="word"><mark>mú</mark>sica</span><span class="syllable">MÚ-si-ca</span></div>
+            <div class="word-item"><span class="word">o<mark>cé</mark>ano</span><span class="syllable">o-CÉ-a-no</span></div>
+            <div class="word-item"><span class="word"><mark>plá</mark>tano</span><span class="syllable">PLÁ-ta-no</span></div>
+            <div class="word-item"><span class="word"><mark>miér</mark>coles</span><span class="syllable">MIÉR-co-les</span></div>
+            <div class="word-item"><span class="word"><mark>má</mark>gico</span><span class="syllable">MÁ-gi-co</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-buttons">
+        <button class="btn-next" data-section="u3-video">Ir al Video →</button>
+      </div>
+    </section>
+
+    <!-- ==================== UNIDAD 3: VIDEO ==================== -->
+    <section class="content-section" id="section-u3-video">
+      <div class="section-header u3-header">
+        <span class="unit-badge">Unidad 3</span>
+        <h1>Palabras Esdrújulas</h1>
+        <p>Video Educativo</p>
+      </div>
+      <div class="video-wrapper">
+        <div class="video-placeholder">
+          <div class="video-play-btn">▶</div>
+          <p>Video: Palabras Esdrújulas</p>
+          <p class="video-note">Reemplaza el src con el enlace de YouTube correspondiente</p>
+        </div>
+      </div>
+      <div class="nav-buttons">
+        <button class="btn-prev" data-section="u3-concepto">← Concepto</button>
+        <button class="btn-next" data-section="u3-actividad">Actividad →</button>
+      </div>
+    </section>
+
+    <!-- ==================== UNIDAD 3: ACTIVIDAD ==================== -->
+    <section class="content-section" id="section-u3-actividad">
+      <div class="section-header u3-header">
+        <span class="unit-badge">Unidad 3 · Actividad</span>
+        <h1>¡Elige la esdrújula!</h1>
+        <p>Selecciona cuál de las opciones es una palabra esdrújula</p>
+      </div>
+      <div class="activity-container" id="activity-u3"></div>
+      <div class="nav-buttons">
+        <button class="btn-prev" data-section="u3-video">← Video</button>
+        <button class="btn-next" data-section="u4-concepto">Ir a Unidad 4 →</button>
+      </div>
+    </section>
+
+    <!-- ==================== UNIDAD 4: SOBREESDRÚJULAS - CONCEPTO ==================== -->
+    <section class="content-section" id="section-u4-concepto">
+      <div class="section-header u4-header">
+        <span class="unit-badge">Unidad 4</span>
+        <h1>Palabras Sobreesdrújulas</h1>
+        <p>Concepto, Regla y Ejemplos</p>
+      </div>
+
+      <div class="concept-box u4-box">
+        <div class="concept-icon">💡</div>
+        <h3>¿Qué son las palabras sobreesdrújulas?</h3>
+        <p>Las palabras sobreesdrújulas tienen la <strong>sílaba tónica</strong> en la sílaba <strong>anterior a la antepenúltima</strong>. Generalmente son verbos con pronombres unidos al final.</p>
+      </div>
+
+      <div class="rule-box u4-rule">
+        <h3>📏 Regla de acentuación</h3>
+        <div class="rule-always u4-always">
+          <span>⭐ ¡SIEMPRE llevan tilde! ⭐</span>
+        </div>
+        <p>Al igual que las esdrújulas, todas las palabras sobreesdrújulas llevan tilde sin excepción. Suelen formarse cuando a un verbo se le agregan dos o más pronombres.</p>
+      </div>
+
+      <div class="examples-container single">
+        <div class="examples-col full-width">
+          <h3 class="ex-title ex-with">✅ Ejemplos con tilde</h3>
+          <div class="word-list word-list-grid">
+            <div class="word-item"><span class="word"><mark>cóm</mark>pratelo</span><span class="syllable">CÓM-pra-te-lo</span></div>
+            <div class="word-item"><span class="word">es<mark>crí</mark>beselo</span><span class="syllable">es-CRÍ-be-se-lo</span></div>
+            <div class="word-item"><span class="word"><mark>gá</mark>natela</span><span class="syllable">GÁ-na-te-la</span></div>
+            <div class="word-item"><span class="word">re<mark>pí</mark>teselo</span><span class="syllable">re-PÍ-te-se-lo</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tip-box">
+        <strong>💬 Tip:</strong> Identifica el verbo base + los pronombres añadidos. Ejemplo: <em>escribe + se + lo = escríbeselo</em>
+      </div>
+
+      <div class="nav-buttons">
+        <button class="btn-next" data-section="u4-video">Ir al Video →</button>
+      </div>
+    </section>
+
+    <!-- ==================== UNIDAD 4: VIDEO ==================== -->
+    <section class="content-section" id="section-u4-video">
+      <div class="section-header u4-header">
+        <span class="unit-badge">Unidad 4</span>
+        <h1>Palabras Sobreesdrújulas</h1>
+        <p>Video Educativo</p>
+      </div>
+      <div class="video-wrapper">
+        <div class="video-placeholder">
+          <div class="video-play-btn">▶</div>
+          <p>Video: Palabras Sobreesdrújulas</p>
+          <p class="video-note">Reemplaza el src con el enlace de YouTube correspondiente</p>
+        </div>
+      </div>
+      <div class="nav-buttons">
+        <button class="btn-prev" data-section="u4-concepto">← Concepto</button>
+        <button class="btn-next" data-section="u4-actividad">Actividad →</button>
+      </div>
+    </section>
+
+    <!-- ==================== UNIDAD 4: ACTIVIDAD ==================== -->
+    <section class="content-section" id="section-u4-actividad">
+      <div class="section-header u4-header">
+        <span class="unit-badge">Unidad 4 · Actividad</span>
+        <h1>¡Forma la sobreesdrújula!</h1>
+        <p>Arrastra los pronombres para construir la palabra correcta</p>
+      </div>
+      <div class="activity-container" id="activity-u4"></div>
+      <div class="nav-buttons">
+        <button class="btn-prev" data-section="u4-video">← Video</button>
+        <button class="btn-next" data-section="evaluacion">Ir a Evaluación →</button>
+      </div>
+    </section>
+
+    <!-- ==================== EVALUACIÓN FINAL ==================== -->
+    <section class="content-section" id="section-evaluacion">
+      <div class="section-header eval-header">
+        <span class="unit-badge">Evaluación Final</span>
+        <h1>¡Demuestra lo que aprendiste!</h1>
+        <p>5 preguntas sobre las 4 unidades</p>
+      </div>
+      <div class="quiz-container" id="quiz-container"></div>
+    </section>
+
+  </main>
+
+  <script src="js/aplicacion.js"></script>
+</body>
+</html>
